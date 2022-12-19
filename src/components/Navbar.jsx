@@ -4,7 +4,7 @@ import { logo } from '../utils/constants'
 import SearchBar from './SearchBar';
 
 const Navbar = () => {
-  
+
   return (
     <Stack direction = 'row' alignItems="centre" p={2}  sx={{ position:'sticky' , background: '#000' , top:0 , justifyContent: 'space-between' }}>
 
@@ -17,5 +17,5 @@ const Navbar = () => {
     </Stack>
   )
 }
-
+  
 export default Navbar;
