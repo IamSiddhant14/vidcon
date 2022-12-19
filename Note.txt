@@ -1,0 +1,33 @@
+when we write css in js we need to write every value ' '
+
+p={2}  , spacing = {2} This is done using mui
+
+variant='contained' color='primary' direction = 'row'
+
+startIcon = { <SendIcon/> }
+
+sx = {{ 
+
+'&:hover':{
+
+  backgroundColor : 'primary.light';
+
+ },
+
+padding : '16px'
+
+}}
+
+
+sx={{ backgroundColor : 'white' }} ;
+
+?. - this means if present they processed further
+
+image={channelDetail?.snippet?.thumbnails?.high?.url || demoProfilePicture}
+
+direction={direction || "row"}
+
+
+{parseInt(channelDetail?.statistics?.subscriberCount).toLocaleString('en-US')}
+
+<ReactPlayer url={`https://www.youtube.com/watch?v=${id}`} className="react-player" controls />            
